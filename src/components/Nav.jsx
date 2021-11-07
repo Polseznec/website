@@ -1,14 +1,12 @@
 import React from "react";
 
+//import Components
+import AnimationTreeD from "./AnimationTreeD";
 //import Styles
-import { HomeNav } from "../styles/Nav.styled";
+import "../Styles/components-styles/navbar.scss";
 
 function Nav() {
-  return (
-    <HomeNav>
-      <div>HomeNav</div>
-    </HomeNav>
-  );
+  return <nav className="navbar">Navbar</nav>;
 }
 
 export default Nav;

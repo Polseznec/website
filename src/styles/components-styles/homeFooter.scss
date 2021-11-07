@@ -1,0 +1,31 @@
+@import "../_variables";
+
+.homeFooter {
+  background-color: #000000;
+  color: whitesmoke;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  text-decoration: none;
+  a {
+    background: linear-gradient(
+      90deg,
+      rgba(181, 255, 198, 1) 0%,
+      rgba(181, 210, 255, 1) 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    display: block;
+    font-size: 70px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.4s ease-in-out;
+    &:hover {
+      background: linear-gradient(90deg, #b5ccff 0%, #ffb5c8 100%);
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      font-size: 100px;
+    }
+  }
+}

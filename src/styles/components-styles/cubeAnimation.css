@@ -1,0 +1,129 @@
+.cubeAnimation {
+  height: 100vh;
+  width: 100vw;
+  background-color: Blue;
+  position: absolute;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 1;
+}
+
+.cubeAnimation .toNavSwrapContainer {
+  opacity: 0;
+}
+
+.cubeAnimation .animationSwarp {
+  height: 50vh;
+  width: 50vh;
+  min-height: 80px;
+  min-width: 80px;
+  position: relative;
+  background-color: rgba(214, 214, 214, 0.932);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  opacity: 1;
+}
+
+.cubeAnimation .toNavAnimationSwrap {
+  height: 10vh;
+  width: 10vh;
+  max-height: 100%;
+  max-width: 100%;
+  opacity: 0;
+}
+
+.cubeAnimation .square {
+  position: relative;
+  height: 75%;
+  width: 50%;
+}
+
+.cubeAnimation .rotationOne {
+  -webkit-animation: rotationOne 13s linear infinite;
+          animation: rotationOne 13s linear infinite;
+  background-color: rgba(182, 86, 86, 0.712);
+}
+
+.cubeAnimation .rotationTwo {
+  -webkit-animation: rotationTwo 13s linear infinite;
+          animation: rotationTwo 13s linear infinite;
+  background-color: rgba(86, 136, 182, 0.678);
+}
+
+@-webkit-keyframes rotationOne {
+  0% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+  }
+  50% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+@keyframes rotationOne {
+  0% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+  }
+  50% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+  }
+}
+
+@-webkit-keyframes rotationTwo {
+  0% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+  }
+  50% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+  }
+}
+
+@keyframes rotationTwo {
+  0% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 360deg);
+  }
+  50% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 180deg);
+  }
+  100% {
+    -webkit-transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+            transform: perspective(300px) rotate3d(1, 1, 1, 0deg);
+  }
+}
+/*# sourceMappingURL=cubeAnimation.css.map */

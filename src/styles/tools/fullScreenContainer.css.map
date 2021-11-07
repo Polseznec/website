@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,KAAK;EACjB,SAAS,EAAE,KAAK;EAChB,gBAAgB,EAAE,UAAU;EAC5B,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "fullScreenContainer.scss",
+        "../_variables.scss"
+    ],
+    "names": [],
+    "file": "fullScreenContainer.css"
+}

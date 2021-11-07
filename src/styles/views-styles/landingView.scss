@@ -1,0 +1,14 @@
+@import "../variables";
+
+.landingPage {
+  h1 {
+    z-index: 1;
+
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    background: transparentize($color: #ac282877, $amount: 0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}

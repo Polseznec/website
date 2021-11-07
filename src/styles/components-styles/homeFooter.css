@@ -1,0 +1,38 @@
+.homeFooter {
+  background-color: #000000;
+  color: whitesmoke;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+}
+
+.homeFooter a {
+  background: -webkit-gradient(linear, left top, right top, from(#b5ffc6), to(#b5d2ff));
+  background: linear-gradient(90deg, #b5ffc6 0%, #b5d2ff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-transform: uppercase;
+  display: block;
+  font-size: 70px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.homeFooter a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#b5ccff), to(#ffb5c8));
+  background: linear-gradient(90deg, #b5ccff 0%, #ffb5c8 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 100px;
+}
+/*# sourceMappingURL=homeFooter.css.map */

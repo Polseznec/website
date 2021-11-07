@@ -1,13 +1,14 @@
 import React from "react";
 
 //import Style
-import { TopHomeContainers } from "../styles/Containers.styled";
+import "../Styles/tools/fullScreenContainer.scss"
+import "../Styles/components-styles/topHome.scss";
 
 function TopHome() {
   return (
-    <TopHomeContainers>
+    <div className="fullScreenContainer topHome">
       <h1>Pol Seznec</h1>
-    </TopHomeContainers>
+    </div>
   );
 }
 

@@ -6,15 +6,16 @@ import TopHome from "../components/TopHome";
 import Footer from "../components/Footer";
 
 //import Styles
-import { Containers } from "../styles/Containers.styled";
+import '../Styles/views-styles/homeView.scss'
+
 
 function Home() {
   return (
-    <Containers>
+    <div className="homePage">
       <Nav />
       <TopHome />
       <Footer />
-    </Containers>
+    </div>
   );
 }
 

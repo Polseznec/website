@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EACR,UAAU,EAAE,UAAU;EACtB,UAAU,EAAE,IAAI;EAChB,gBAAgB,EAAE,UAAU;EAC5B,QAAQ,EAAE,QAAQ;CACnB",
+    "sources": [
+        "homeView.scss",
+        "../_variables.scss"
+    ],
+    "names": [],
+    "file": "homeView.css"
+}

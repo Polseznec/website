@@ -5,6 +5,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "./views/Landing";
 import Home from "./views/Home";
 
+//Import Styles
+import "./App.scss"
+
 function App() {
   return (
     <div className="App">
